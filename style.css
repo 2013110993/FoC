@@ -196,7 +196,10 @@ article #content{
 	height: auto;
 	margin-bottom: 20px;;
 }
-#content a{color: #fff;}
+#content a{
+	color: #fff;
+	text-decoration: none;
+}
 #content .button{
 	background-color: #1b2426;
 	border: none;
