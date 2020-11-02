@@ -189,6 +189,9 @@ article #content{
 	border-radius: 3px;
 	border: 1px solid #cecfd0;
 }
+article #wrapper{
+	position:re
+}
 article h1{
 	padding-left: 10px;
 	line-height: 30px;
