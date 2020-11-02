@@ -195,7 +195,7 @@ article #content{
 	width: 100%;
 	height: auto;
 }
-#content button{
+#content .button{
 	background-color: #1b2426;
 	border: none;
 	color: white;
