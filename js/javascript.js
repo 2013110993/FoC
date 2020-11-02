@@ -3,8 +3,8 @@ var inputTwoIsOn = false;
 
 
 function toggleImage() {
-   var img1 = "..\\images\\on.png";
-   var img2 = "..\images\\off.png";
+   var img1 = "images\\off.png";
+   var img2 = "images\\off.png";
   
    
    var imgElement = document.getElementById('toggleImage');
@@ -17,8 +17,8 @@ function toggleImage() {
 
   
 function toggleImage2() {
-   var img1 = "..\\images\\on.png";
-   var img2 = "..\images\\off.png";
+   var img1 = "images\\off.png";
+   var img2 = "images\\off.png";
   
    
    var imgElement = document.getElementById('toggleImage2');
@@ -55,11 +55,11 @@ function and(){
 	
     
     if(inputOneIsOn&&inputTwoIsOn)
-        document.getElementById('andGate').src='images\\on.png';
+        document.getElementById('andGate').src='images\\and2on.png';
     else if (!inputOneIsOn && inputTwoIsOn) 
-        document.getElementById('andGate').src='..\\images\\off.png';
+        document.getElementById('andGate').src='images\\andoffon.PNG';
 	else if (inputOneIsOn && !inputTwoIsOn) 
-        document.getElementById('andGate').src='images\\on.png';
+        document.getElementById('andGate').src='images\\andonoff.PNG';
 	else if (!inputOneIsOn && !inputTwoIsOn) 
-        document.getElementById('andGate').src='images\\off.png';
+        document.getElementById('andGate').src='images\\and2off.PNG';
 	}
