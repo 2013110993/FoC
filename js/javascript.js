@@ -55,11 +55,11 @@ function and(){
 	
     
     if(inputOneIsOn&&inputTwoIsOn)
-        document.getElementById('andGate').src='..\\images\\on.png';
+        document.getElementById('andGate').src='images\\on.png';
     else if (!inputOneIsOn && inputTwoIsOn) 
         document.getElementById('andGate').src='..\\images\\off.png';
 	else if (inputOneIsOn && !inputTwoIsOn) 
-        document.getElementById('andGate').src='..\\images\\on.png';
+        document.getElementById('andGate').src='images\\on.png';
 	else if (!inputOneIsOn && !inputTwoIsOn) 
-        document.getElementById('andGate').src='..\\images\\off.png';
+        document.getElementById('andGate').src='images\\off.png';
 	}
