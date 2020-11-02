@@ -56,11 +56,11 @@ function and(){
 	
     
     if(inputOneIsOn&&inputTwoIsOn)
-        document.getElementById('andGate').src='images\\and2on.png';
+        document.getElementById('andGate').src='images/and2on.png';
     else if (!inputOneIsOn && inputTwoIsOn) 
-        document.getElementById('andGate').src='images\\andoffon.png';
+        document.getElementById('andGate').src='images/andoffon.png';
 	else if (inputOneIsOn && !inputTwoIsOn) 
-        document.getElementById('andGate').src='images\\andonoff.png';
+        document.getElementById('andGate').src='images/andonoff.png';
 	else if (!inputOneIsOn && !inputTwoIsOn) 
-        document.getElementById('andGate').src='images\\and2off.png';
+        document.getElementById('andGate').src='images/and2off.png';
 	}
