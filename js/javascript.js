@@ -3,8 +3,8 @@ var inputTwoIsOn = false;
 
 
 function toggleImage() {
-   var img1 = "images\off.png";
-   var img2 = "images\off.png";
+   var img1 = "images\\off.png";
+   var img2 = "images\\off.png";
   
    
    var imgElement = document.getElementById('toggleImage');
@@ -17,8 +17,8 @@ function toggleImage() {
 
   
 function toggleImage2() {
-   var img1 = "images\off.png";
-   var img2 = "images\off.png";
+   var img1 = "images\\off.png";
+   var img2 = "images\\off.png";
   
    
    var imgElement = document.getElementById('toggleImage2');
