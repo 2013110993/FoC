@@ -190,7 +190,10 @@ article #content{
 	border: 1px solid #cecfd0;
 }
 #content #wrapper{
-	position:re
+	position: relative;
+	float: left;
+	width: 100%;
+	height: auto;
 }
 article h1{
 	padding-left: 10px;
