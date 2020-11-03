@@ -63,20 +63,56 @@
 			</p>
 		</div>
 
-		<h1>AND GATE <i class="fa fa-angle-double-right" aria-hidden="true"></i></h1>
-		<hr>
-		<div id="imageBlock">
-			<script src = "javascript.js"></script>
-			<h2>Input</h2>
-			<button class="button" onclick = "and()">Run</button>
-   				<p><img width="100px" src="images\off.png"  id="toggleImage" onclick="toggleImage(); toggleInputOne();"/></p>
-    			<p><img width="100px" src="images\off.png"  id="toggleImage2" onclick="toggleImage2(); toggleInputTwo();"/></p>
+		<div id="wrapper">
+			<h1>AND GATE <i class="fa fa-angle-double-right" aria-hidden="true"></i></h1>
+			<hr>
+			<div id="imageBlock">
+				<script src = "javascript.js"></script>
+				<h2>Input</h2>
+				<button class="button" onclick = "and()">Run</button>
+					<p><img width="100px" src="images\off.png"  id="toggleImage" onclick="toggleImage(); toggleInputOne();"/></p>
+					<p><img width="100px" src="images\off.png"  id="toggleImage2" onclick="toggleImage2(); toggleInputTwo();"/></p>
+			</div>
+
+			<p>
+				<h2>Output</h2>
+				<img width="55%" id="andGate" src="images\and2off.png" >
+			</p>
 		</div>
 
-		<p>
-			<h2>Output</h2>
-			<img width="55%" id="andGate" src="images\and2off.png" >
-		</p>
+		<div id="wrapper">
+			<h1>OR GATE <i class="fa fa-angle-double-right" aria-hidden="true"></i></h1>
+			<hr>
+			<div id="imageBlock">
+				<h2>Input</h2>
+				<button class="button" onclick="document.getElementById('orgate').src='images\\or00.jpg'">0 or 0</button><br>
+				<button class="button" onclick="document.getElementById('orgate').src='images\\or01.jpg'">0 or 1</button><br>
+				<button class="button" onclick="document.getElementById('orgate').src='images\\or10.jpg'">1 or 0</button><br>
+				<button class="button" onclick="document.getElementById('orgate').src='images\\or11.jpg'">1 or 1</button><br>
+			</div>
+
+			<p>
+				<h2>Output</h2>
+				<img width="55%" id="orgate" src="images\or00.jpg" >
+			</p>
+		</div>
+
+		<div id="wrapper">
+			<h1>XOR GATE <i class="fa fa-angle-double-right" aria-hidden="true"></i></h1>
+			<hr>
+			<div id="imageBlock">
+				<h2>Input</h2>
+				<button class="button" onclick="document.getElementById('xorgate').src='images\\0XOR0.png'">0 XOR 0</button><br>
+				<button class="button" onclick="document.getElementById('xorgate').src='images\\0XOR1.png'">0 XOR 1</button><br>
+				<button class="button" onclick="document.getElementById('xorgate').src='images\\1XOR0.png'">1 XOR 0</button><br>
+				<button class="button" onclick="document.getElementById('xorgate').src='images\\1XOR1.png'">1 XOR 1</button><br>
+			</div>
+
+			<p>
+				<h2>Output</h2>
+				<img width="55%" id="xorgate" src="images\0XOR0.png">
+			</p>
+		</div>
 	</div>
 	</div>
 <!-- Content -->
